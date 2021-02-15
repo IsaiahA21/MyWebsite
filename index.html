@@ -6,8 +6,8 @@
     <title>IsaiahAsaolu</title>
     <link rel="stylesheet" href="styling.css">
 
-    <style>  
-    </style>  
+
+    <link href="secondproject">
 </head>
 <body> 
 
@@ -30,20 +30,149 @@
         <br/>
         <p1>I am currently a software engineering student at the University of Calgary</p1>
     </section>
+
 <section id="aboutme" class="section2">
     <h1>About me</h1>
-    <div id="leftbox">
-        <p>I am second year software engineering student at the University of Calgary looking to begin a career as asoftware developer. More specifically, I am interested in the backend aspect of developing and eager to earn about the possibilities being a backend developer provides. I find sectors such as AI, cloud computingand Augmented intriguing because they present unimaginable potential that we can’t begin to comprehend.</p>
-        <p>Outside of software, I am passionate about sports. I love watching hockey, basketball,
-        soccer, and football. For hockey my teams are; Calgary flames, Buffalo Sabres, Los Angeles Kings. Inbasketball; Charlotte Hornets, Minnesota Timberwolves, Toronto Raptors. In soccer, my club is Arsenal. Football teams that I cheer for are; the Seattle Seahawks, Indiana Colts, and whichever team Justin Fields goes to. </p>
-    </div>
-    <div id="middlebox">
-    </div>
+    <table>
+      <tr>
+        <td id="leftbox">
+           <p>I am second year software engineering student at the University of Calgary looking to begin a career
+              as a software developer. I aspire to be a fullstack developer in order to acquire knowledge about all 
+              aspect of software development. However, I do prefer the backend aspect of software engineering and 
+              I am interest in areas such as cloud computing, artificial intelligence and embedded systems.
+              
+            </p>
+            <p>Outside of software, I am passionate about sports. I love watching hockey, basketball,
+               soccer, and football. For hockey my teams are; Calgary flames, Buffalo Sabres, Los Angeles Kings.
+               In basketball, the Charlotte Hornets, Minnesota Timberwolves, Toronto Raptors are the teams I support. In soccer, my club is
+               Arsenal. Football teams that I cheer for are; the Seattle Seahawks, Indiana Colts, and whichever
+               team Justin Fields goes to. 
+            </p>
+        </td>
+        <td id="middlebox"></td>
+     </tr>
+    </table>
 </section>
-  <div id="Projects" class="page3">
+
+<div id="Projects" class="page3">
     <h2>Projects</h2>
-    <p1>Coming soon</p1>
-  </div>
+    <!--<p1>Coming soon</p1>-->
+
+      <div class="row">
+            <div class="column">
+              <img src="images/background.png" style="width:80%" onclick="openModal('myModal');currentSlide(1)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+              <img src="images/CalgaryHackImage1.jpg" style="width:80%" onclick="openModal2('myModal2');currentSlide2(1)" class="hover-shadow cursor">
+            </div>
+        </div>
+          
+  
+          <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal('myModal')">&times;</span>
+            <div class="modal-content">
+          
+              <div class="mySlides">
+                <div class="numbertext">1 / 4</div>
+                <img src="images/TamuHackImage1.jpg" style="width:100%">
+              </div>
+          
+              <div class="mySlides">
+                <div class="numbertext">2 / 4</div>
+                <img src="images/TamuHackImage2.jpg" style="width:100%">
+              </div>
+          
+              <div class="mySlides">
+                <div class="numbertext">3 / 4</div>
+                <img src="images/TamuHackImage3.jpg" style="width:100%">
+              </div>
+              <div class="mySlides">
+                <div class="numbertext">4 / 4</div>
+                <img src="images/TamuHackImage3.jpg" style="width:100%">
+              </div>
+            
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          
+              <div class="caption-container">
+                <p id="caption"></p>
+              </div>
+          
+          
+             <div class="column">
+                <img class="demo cursor" src="images/TamuHackImage1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Homepage">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="images/TamuHackImage2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Search">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="images/TamuHackImage3.jpg" style="width:100%" onclick="currentSlide(3)" alt="JFK to LAX flights">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="images/TamuHackImage4.jpg" style="width:100%" onclick="currentSlide(4)" alt="DFW to ORD flights">
+              </div>
+            </div>
+          </div>
+
+        <div id="myModal2" class="modal">
+            <span class="close cursor" onclick="closeModal2('myModal2')">&times;</span>
+            <div class="modal-content">
+
+
+              <div class="mySlides2">
+                <div class="numbertext">1 / 5</div>
+                <img src="images/CalgaryHackImage1.jpg" style="width:100%">
+              </div>
+
+              <div class="mySlides2">
+                <div class="numbertext">2 / 5</div>
+                <img src="images/CalgaryHackImage2.jpg" style="width:100%">
+              </div>
+          
+              <div class="mySlides2">
+                <div class="numbertext">3 / 5</div>
+                <img src="images/CalgaryHackImage3.jpg" style="width:100%">
+              </div>
+          
+              <div class="mySlides2">
+                <div class="numbertext">4 / 5</div>
+                <img src="images/CalgaryHackImage4.jpg" style="width:100%">
+              </div>
+              <div class="mySlides2">
+                <div class="numbertext">5 / 5</div>
+                <img src="images/CalgaryHackImage5.jpg" style="width:100%">
+              </div>
+              <a class="prev" onclick="plusSlides2(-1)">&#10092;</a>
+              <a class="next" onclick="plusSlides2(1)">&#10093;</a>
+          
+              <div class="caption-container">
+                <p id="caption2"></p>
+              </div>
+ 
+          
+          
+              <div class="column">
+                <img class="demo2" src="images/CalgaryHackImage1.jpg" style="width:100%" onclick="currentSlide2(1)" alt="Homepage">
+              </div>
+             <div class="column">
+                <img class="demo2" src="images/CalgaryHackImage2.jpg" style="width:100%" onclick="currentSlide2(2)" alt="Assignment">
+              </div>
+              <div class="column">
+                <img class="demo2" src="images/CalgaryHackImage3.jpg" style="width:100%" onclick="currentSlide2(3)" alt="Search">
+              </div>
+              <div class="column">
+                <img class="demo2" src="images/CalgaryHackImage4.jpg" style="width:100%" onclick="currentSlide2(4)" alt="JFK to LAX flights">
+              </div>
+              <div class="column">
+                <img class="demo2" src="images/CalgaryHackImage5.jpg" style="width:100%" onclick="currentSlide2(5)" alt="DFW to ORD flights">
+              </div>
+            </div>
+          </div>
+
+  <!--closes page-->        
+  </div> 
+    
+
 
  <div id="Resume" class="page4">
     <h2>Resume</h2>
@@ -65,5 +194,84 @@
  
     
 </div>
+<script>
+   function openModal(passID) {
+      document.getElementById(passID).style.display = "block";
+    }
+    
+    function closeModal(passID) {
+      document.getElementById(passID).style.display = "none";
+    }
+    
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+
+</script>
+<script>
+  function openModal2(passID) {
+    document.getElementById(passID).style.display = "block";
+  }
+  
+  function closeModal2(passID) {
+    document.getElementById(passID).style.display = "none";
+  }
+  
+  var slideIndex = 1;
+  showSlides2(slideIndex);
+  
+  function plusSlides2(m) {
+    showSlides2(slideIndex += m);
+  }
+  
+  function currentSlide2(m) {
+    showSlides2(slideIndex = m);
+  }
+  
+  function showSlides2(m) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides2");
+    var dots = document.getElementsByClassName("demo2");
+    var captionText = document.getElementById("caption2");
+    
+    if (m > slides.length) {slideIndex = 1}
+    if (m < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>
 </body>
 </html>
