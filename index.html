@@ -9,7 +9,7 @@
 
     <link href="secondproject">
 </head>
-<body> 
+<body>
 
     <nav>
      <a href="#home">HOME</a>
@@ -37,16 +37,16 @@
       <tr>
         <td id="leftbox">
            <p>I am second year software engineering student at the University of Calgary looking to begin a career
-              as a software developer. I aspire to be a fullstack developer in order to acquire knowledge about all 
-              aspect of software development. However, I do prefer the backend aspect of software engineering and 
+              as a software developer. I aspire to be a fullstack developer in order to acquire knowledge about all
+              aspect of software development. However, I do prefer the backend aspect of software engineering and
               I am interest in areas such as cloud computing, artificial intelligence and embedded systems.
-              
+
             </p>
             <p>Outside of software, I am passionate about sports. I love watching hockey, basketball,
                soccer, and football. For hockey my teams are; Calgary flames, Buffalo Sabres, Los Angeles Kings.
                In basketball, the Charlotte Hornets, Minnesota Timberwolves, Toronto Raptors are the teams I support. In soccer, my club is
                Arsenal. Football teams that I cheer for are; the Seattle Seahawks, Indiana Colts, and whichever
-               team Justin Fields goes to. 
+               team Justin Fields goes to.
             </p>
         </td>
         <td id="middlebox"></td>
@@ -60,28 +60,31 @@
 
       <div class="row">
             <div class="column">
-              <img src="images/background.png" style="width:80%" onclick="openModal('myModal');currentSlide(1)" class="hover-shadow cursor">
+              <img src="images/background.png" style="width:70%" onclick="openModal('project1');currentSlide(1)" class="hover-shadow cursor">
             </div>
             <div class="column">
-              <img src="images/CalgaryHackImage1.jpg" style="width:80%" onclick="openModal2('myModal2');currentSlide2(1)" class="hover-shadow cursor">
+              <img src="images/CalgaryHackImage1.jpg" style="width:80%" onclick="openModal('project2');currentSlide(1)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+              <img src="images/BookAGymMainPage.png" style="width:80%" onclick="openModal('project3');currentSlide(1)" class="hover-shadow cursor">
             </div>
         </div>
-          
-  
-          <div id="myModal" class="modal">
-            <span class="close cursor" onclick="closeModal('myModal')">&times;</span>
+
+
+          <div id="project1" class="modal">
+            <span class="close cursor" onclick="closeModal('project1')">&times;</span>
             <div class="modal-content">
-          
+
               <div class="mySlides">
                 <div class="numbertext">1 / 4</div>
                 <img src="images/TamuHackImage1.jpg" style="width:100%">
               </div>
-          
+
               <div class="mySlides">
                 <div class="numbertext">2 / 4</div>
                 <img src="images/TamuHackImage2.jpg" style="width:100%">
               </div>
-          
+
               <div class="mySlides">
                 <div class="numbertext">3 / 4</div>
                 <img src="images/TamuHackImage3.jpg" style="width:100%">
@@ -90,34 +93,34 @@
                 <div class="numbertext">4 / 4</div>
                 <img src="images/TamuHackImage4.jpg" style="width:100%">
               </div>
-            
+
               <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
               <a class="next" onclick="plusSlides(1)">&#10095;</a>
-          
+
               <div class="caption-container">
-                <p id="caption"></p>
+                <p id="caption1"></p>
               </div>
-          
-          
+
              <div class="column">
-                <img class="demo cursor" src="images/TamuHackImage1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Homepage">
+                <img class="demo" src="images/TamuHackImage1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Homepage">
               </div>
               <div class="column">
-                <img class="demo cursor" src="images/TamuHackImage2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Search">
+                <img class="demo" src="images/TamuHackImage2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Search">
               </div>
               <div class="column">
-                <img class="demo cursor" src="images/TamuHackImage3.jpg" style="width:100%" onclick="currentSlide(3)" alt="JFK to LAX flights">
+                <img class="demo" src="images/TamuHackImage3.jpg" style="width:100%" onclick="currentSlide(3)" alt="JFK to LAX flights">
               </div>
               <div class="column">
-                <img class="demo cursor" src="images/TamuHackImage4.jpg" style="width:100%" onclick="currentSlide(4)" alt="DFW to ORD flights">
+                <img class="demo" src="images/TamuHackImage4.jpg" style="width:100%" onclick="currentSlide(4)" alt="DFW to ORD flights">
               </div>
             </div>
           </div>
 
-        <div id="myModal2" class="modal">
-            <span class="close cursor" onclick="closeModal2('myModal2')">&times;</span>
-            <div class="modal-content">
+          <!--Project two, Calgary Hack-->
 
+        <div id="project2" class="modal">
+            <span class="close cursor" onclick="closeModal('project2')">&times;</span>
+            <div class="modal-content">
 
               <div class="mySlides2">
                 <div class="numbertext">1 / 5</div>
@@ -128,12 +131,12 @@
                 <div class="numbertext">2 / 5</div>
                 <img src="images/CalgaryHackImage2.jpg" style="width:100%">
               </div>
-          
+
               <div class="mySlides2">
                 <div class="numbertext">3 / 5</div>
                 <img src="images/CalgaryHackImage3.jpg" style="width:100%">
               </div>
-          
+
               <div class="mySlides2">
                 <div class="numbertext">4 / 5</div>
                 <img src="images/CalgaryHackImage4.jpg" style="width:100%">
@@ -142,36 +145,94 @@
                 <div class="numbertext">5 / 5</div>
                 <img src="images/CalgaryHackImage5.jpg" style="width:100%">
               </div>
-              <a class="prev" onclick="plusSlides2(-1)">&#10092;</a>
-              <a class="next" onclick="plusSlides2(1)">&#10093;</a>
-          
+              <a class="prev" onclick="plusSlides(-1)">&#10092;</a>
+              <a class="next" onclick="plusSlides(1)">&#10093;</a>
+
               <div class="caption-container">
                 <p id="caption2"></p>
               </div>
- 
-          
-          
+
               <div class="column">
-                <img class="demo2" src="images/CalgaryHackImage1.jpg" style="width:100%" onclick="currentSlide2(1)" alt="Homepage">
+                <img class="demo2" src="images/CalgaryHackImage1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Homepage">
               </div>
              <div class="column">
-                <img class="demo2" src="images/CalgaryHackImage2.jpg" style="width:100%" onclick="currentSlide2(2)" alt="Assignment">
+                <img class="demo2" src="images/CalgaryHackImage2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Assignment">
               </div>
               <div class="column">
-                <img class="demo2" src="images/CalgaryHackImage3.jpg" style="width:100%" onclick="currentSlide2(3)" alt="Ask a question">
+                <img class="demo2" src="images/CalgaryHackImage3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Ask a question">
               </div>
               <div class="column">
-                <img class="demo2" src="images/CalgaryHackImage4.jpg" style="width:100%" onclick="currentSlide2(4)" alt="Talk to proof">
+                <img class="demo2" src="images/CalgaryHackImage4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Talk to proof">
               </div>
               <div class="column">
-                <img class="demo2" src="images/CalgaryHackImage5.jpg" style="width:100%" onclick="currentSlide2(5)" alt="Chat with other students">
+                <img class="demo2" src="images/CalgaryHackImage5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Chat with other students">
               </div>
             </div>
           </div>
 
-  <!--closes page-->        
-  </div> 
-    
+          <!--Project three, Book a gym-->
+
+          <div id="project3" class="modal">
+              <span class="close cursor" onclick="closeModal('project3')">&times;</span>
+              <div class="modal-content">
+
+                <div class="mySlides3">
+                  <div class="numbertext">1 / 6</div>
+                  <img src="images/BookAGymMainpage.png" style="width:100%">
+                </div>
+
+                <div class="mySlides3">
+                  <div class="numbertext">2 / 6</div>
+                  <img src="images/BookAGymLoginPage.png" style="width:100%">
+                </div>
+
+                <div class="mySlides3">
+                  <div class="numbertext">3 / 6</div>
+                  <img src="images/BookAGymUserPage.png" style="width:100%">
+                </div>
+
+                <div class="mySlides3">
+                  <div class="numbertext">4 / 6</div>
+                  <img src="images/BookAGymAnnoucements.png" style="width:100%">
+                </div>
+                <div class="mySlides3">
+                  <div class="numbertext">5 / 6</div>
+                  <img src="images/BookAGymUserBooking.png" style="width:100%">
+                </div>
+                <div class="mySlides3">
+                  <div class="numbertext">6 / 6</div>
+                  <img src="images/BookAGymCreateABooking.png" style="width:100%">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10092;</a>
+                <a class="next" onclick="plusSlides(1)">&#10093;</a>
+
+                <div class="caption-container">
+                  <p id="caption3"></p>
+                </div>
+
+                <div class="column">
+                  <img class="demo3" src="images/BookAGymMainPage.png" style="width:100%" onclick="currentSlide(1)" alt="Main Page">
+                </div>
+               <div class="column">
+                  <img class="demo3" src="images/BookAGymLoginPage.png" style="width:100%" onclick="currentSlide(2)" alt="Login Page">
+                </div>
+                <div class="column">
+                  <img class="demo3" src="images/BookAGymUserPage.png" style="width:100%" onclick="currentSlide(3)" alt="User Page">
+                </div>
+                <div class="column">
+                  <img class="demo3" src="images/BookAGymAnnoucements.png" style="width:100%" onclick="currentSlide(4)" alt="Annoucements">
+                </div>
+                <div class="column">
+                  <img class="demo3" src="images/BookAGymUserBooking.png" style="width:100%" onclick="currentSlide(5)" alt="User Bookings">
+                </div>
+                <div class="column">
+                  <img class="demo3" src="images/BookAGymCreateABooking.png" style="width:100%" onclick="currentSlide(6)" alt="Create a booking">
+                </div>
+              </div>
+            </div>
+  <!--closes page-->
+  </div>
+
 
 
  <div id="Resume" class="page4">
@@ -190,35 +251,50 @@
      <a class="spec"  target="blank" href="https://www.linkedin.com/in/isaiah-a-2001/">
         <img alt="Link to Isaiah Asaolu linkedin" src="images/LI-In-Bug.png" width="32px" height="32px">
      </a>
- 
-    
+
+
 </div>
 <script>
+ var gobalID = null;
    function openModal(passID) {
       document.getElementById(passID).style.display = "block";
+      gobalID = passID;
     }
-    
+
     function closeModal(passID) {
       document.getElementById(passID).style.display = "none";
     }
-    
+
     var slideIndex = 1;
     showSlides(slideIndex);
-    
+
     function plusSlides(n) {
       showSlides(slideIndex += n);
     }
-    
+
     function currentSlide(n) {
       showSlides(slideIndex = n);
     }
-    
+
     function showSlides(n) {
       var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("demo");
-      var captionText = document.getElementById("caption");
-      
+
+      if(gobalID == "project1"){
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption1");
+      }
+      else if(gobalID == "project2"){
+        var slides = document.getElementsByClassName("mySlides2");
+        var dots = document.getElementsByClassName("demo2");
+        var captionText = document.getElementById("caption2");
+      }
+      else if(gobalID == "project3"){
+        var slides = document.getElementsByClassName("mySlides3");
+        var dots = document.getElementsByClassName("demo3");
+        var captionText = document.getElementById("caption3");
+      }
+
       if (n > slides.length) {slideIndex = 1}
       if (n < 1) {slideIndex = slides.length}
       for (i = 0; i < slides.length; i++) {
@@ -233,44 +309,6 @@
     }
 
 </script>
-<script>
-  function openModal2(passID) {
-    document.getElementById(passID).style.display = "block";
-  }
-  
-  function closeModal2(passID) {
-    document.getElementById(passID).style.display = "none";
-  }
-  
-  var slideIndex = 1;
-  showSlides2(slideIndex);
-  
-  function plusSlides2(m) {
-    showSlides2(slideIndex += m);
-  }
-  
-  function currentSlide2(m) {
-    showSlides2(slideIndex = m);
-  }
-  
-  function showSlides2(m) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides2");
-    var dots = document.getElementsByClassName("demo2");
-    var captionText = document.getElementById("caption2");
-    
-    if (m > slides.length) {slideIndex = 1}
-    if (m < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-    captionText.innerHTML = dots[slideIndex-1].alt;
-  }
-  </script>
+
 </body>
 </html>

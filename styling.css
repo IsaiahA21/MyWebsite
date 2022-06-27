@@ -122,8 +122,7 @@ svg{width:10%;height:auto;}
 
 
 .row > .column {
-  margin-left: 13%;
-  margin-right: 10%;
+  margin-left: 5%;
   padding: 0;
 /* background-color: pink; */
 }
@@ -337,4 +336,8 @@ h2{
 
 .spec {
     padding-left: 50px;
+}
+
+.numbertext {
+  color: green;
 }
